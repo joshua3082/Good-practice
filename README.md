@@ -7,10 +7,10 @@ Features
 - Computes all Greeks 
 - Uses NumPy and SciPy for mathematical and statistical operations
 
-Potential improvements are graphs for visualisation of the Greeks and their importance and maybe adding a subsection fr other pricing models to compare against it
+Potential improvements are graphs for visualisation of the Greeks and their importance and maybe adding a subsection for other pricing models to compare against it
 
 To use the model:
-To use the calculator, run the `Black_Scholes.py`
+Run the `Black_Scholes.py`
 from Black_Scholes import Black_Scholes, Greeks_call, Greeks_put
 print(Black_Scholes(100, 3, 60, 0.2, 0.3, 'call')) which should output 67.24
 The last argument can be changed to 'put' to output a put option but remember to change the other variables accordingly.
