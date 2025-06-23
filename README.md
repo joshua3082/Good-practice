@@ -14,7 +14,7 @@ Run the `Black_Scholes.py`
 from Black_Scholes import Black_Scholes, Greeks_call, Greeks_put
 print(Black_Scholes(100, 3, 60, 0.2, 0.3, 'call')) which should output 67.24
 The last argument can be changed to 'put' to output a put option but remember to change the other variables accordingly.
-Any other values other than "put" or "call" will prompt the user to enter one of the or the calculator will not move forward
+Any other values other than "put" or "call" will prompt the user to enter one of these which will carry on indefinitiely until they do
 
 I've split the Greeks into two separate function for Greek Calls and Greek puts just becuase it was a lot more formulas than the Black_Scholes function
 This means there is only 5 arguments for the Greek function and NOT 6 unlike the Black_Scholes.
