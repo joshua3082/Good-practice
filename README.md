@@ -18,4 +18,4 @@ Any other values other than "put" or "call" will prompt the user to enter one of
 
 I've split the Greeks into two separate function for Greek Calls and Greek puts just becuase it was a lot more formulas than the Black_Scholes function
 This means there is only 5 arguments for the Greek function and NOT 6 unlike the Black_Scholes.
-print(Greeks_call(100, 3, 60, 0.2, 0.3)) Should output the values {'delta': 0.992, 'gamma': 0.00043, 'vega': 3.901, 'theta': -6.582, 'rho': 95.804} All to 3d.p
+print(Greeks_call(100, 3, 60, 0.2, 0.3)) Should output the values {'delta': 0.992, 'gamma': 0.00043, 'vega': 3.901, 'theta': -6.582, 'rho': 95.804} All to 3d.p except for gamma which I found to often be quite small depending on values so I rounded to 5d.p
